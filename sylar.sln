@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcxproj",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testThread", "testThread\testThread.vcxproj", "{16E8890C-E64D-4114-B35E-B934B6250837}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test1", "test1\test1.vcxproj", "{21FB3422-0223-4798-BEBD-B5D670F616FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -55,6 +57,18 @@ Global
 		{16E8890C-E64D-4114-B35E-B934B6250837}.Release|x64.Build.0 = Release|x64
 		{16E8890C-E64D-4114-B35E-B934B6250837}.Release|x86.ActiveCfg = Release|x86
 		{16E8890C-E64D-4114-B35E-B934B6250837}.Release|x86.Build.0 = Release|x86
+		{21FB3422-0223-4798-BEBD-B5D670F616FF}.Debug|ARM.ActiveCfg = Debug|ARM
+		{21FB3422-0223-4798-BEBD-B5D670F616FF}.Debug|ARM.Build.0 = Debug|ARM
+		{21FB3422-0223-4798-BEBD-B5D670F616FF}.Debug|x64.ActiveCfg = Debug|x64
+		{21FB3422-0223-4798-BEBD-B5D670F616FF}.Debug|x64.Build.0 = Debug|x64
+		{21FB3422-0223-4798-BEBD-B5D670F616FF}.Debug|x86.ActiveCfg = Debug|x86
+		{21FB3422-0223-4798-BEBD-B5D670F616FF}.Debug|x86.Build.0 = Debug|x86
+		{21FB3422-0223-4798-BEBD-B5D670F616FF}.Release|ARM.ActiveCfg = Release|ARM
+		{21FB3422-0223-4798-BEBD-B5D670F616FF}.Release|ARM.Build.0 = Release|ARM
+		{21FB3422-0223-4798-BEBD-B5D670F616FF}.Release|x64.ActiveCfg = Release|x64
+		{21FB3422-0223-4798-BEBD-B5D670F616FF}.Release|x64.Build.0 = Release|x64
+		{21FB3422-0223-4798-BEBD-B5D670F616FF}.Release|x86.ActiveCfg = Release|x86
+		{21FB3422-0223-4798-BEBD-B5D670F616FF}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

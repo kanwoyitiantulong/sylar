@@ -27,9 +27,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{e5539b61-2883-4de0-8fcb-b46eea281462}</ProjectGuid>
+    <ProjectGuid>{21fb3422-0223-4798-bebd-b5d670f616ff}</ProjectGuid>
     <Keyword>Linux</Keyword>
-    <RootNamespace>sylar</RootNamespace>
+    <RootNamespace>test1</RootNamespace>
     <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
     <ApplicationType>Linux</ApplicationType>
     <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
@@ -60,55 +60,10 @@
   <ImportGroup Label="Shared" />
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>$(IncludePath)</IncludePath>
-  </PropertyGroup>
   <ItemGroup>
-    <ClCompile Include="config.cpp" />
-    <ClCompile Include="config_test.cpp" />
-    <ClCompile Include="evemtWar.cpp" />
-    <ClCompile Include="log.cpp" />
-    <ClCompile Include="logAppender.cpp" />
-    <ClCompile Include="logEvent.cpp" />
-    <ClCompile Include="logFormat.cpp" />
-    <ClCompile Include="logger.cpp" />
-    <ClCompile Include="mian.cpp" />
-    <ClCompile Include="test_thread.cpp" />
-    <ClCompile Include="thread.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="config.h" />
-    <ClInclude Include="eventWar.h" />
-    <ClInclude Include="log.h" />
-    <ClInclude Include="logAppender.h" />
-    <ClInclude Include="logEvent.h" />
-    <ClInclude Include="logFormat.h" />
-    <ClInclude Include="logger.h" />
-    <ClInclude Include="config.yaml" />
-    <ClInclude Include="thread.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram.cd" />
-  </ItemGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <ClCompile>
-      <AdditionalIncludeDirectories>D:\Program Files %28x86%29\Microsoft Visual Studio\2017\linux_include\usr\include;D:\Program Files (x86)\Microsoft Visual Studio\2017\linux_include\include;/usr/local/include/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <CAdditionalWarning>%(CAdditionalWarning)</CAdditionalWarning>
-      <CppAdditionalWarning />
-      <AdditionalOptions>-I/usr/local/include -lyaml</AdditionalOptions>
-      <BrowseInformation>true</BrowseInformation>
-    </ClCompile>
-    <Link>
-      <SharedLibrarySearchPath>/usr/local/lib;%(SharedLibrarySearchPath)</SharedLibrarySearchPath>
-    </Link>
-    <Link>
-      <AdditionalLibraryDirectories>/usr/local/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <LibraryDependencies>yaml-cpp;pthread;%(LibraryDependencies)</LibraryDependencies>
-    </Link>
-    <Bscmake>
-      <PreserveSbr>true</PreserveSbr>
-    </Bscmake>
-  </ItemDefinitionGroup>
+  <ItemDefinitionGroup />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
 </Project>

@@ -63,11 +63,6 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\sylar\sylar.vcxproj">
-      <Project>{e5539b61-2883-4de0-8fcb-b46eea281462}</Project>
-    </ProjectReference>
-  </ItemGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <BrowseInformation>true</BrowseInformation>
