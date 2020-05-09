@@ -3,13 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sylar", "sylar\sylar.vcxproj", "{E5539B61-2883-4DE0-8FCB-B46EEA281462}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcxproj", "{C08DF60C-4E31-481D-BB93-9459CA3EF537}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testThread", "testThread\testThread.vcxproj", "{16E8890C-E64D-4114-B35E-B934B6250837}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test1", "test1\test1.vcxproj", "{21FB3422-0223-4798-BEBD-B5D670F616FF}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sylar1", "test1\test1.vcxproj", "{21FB3422-0223-4798-BEBD-B5D670F616FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,18 +19,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E5539B61-2883-4DE0-8FCB-B46EEA281462}.Debug|ARM.ActiveCfg = Debug|ARM
-		{E5539B61-2883-4DE0-8FCB-B46EEA281462}.Debug|ARM.Build.0 = Debug|ARM
-		{E5539B61-2883-4DE0-8FCB-B46EEA281462}.Debug|x64.ActiveCfg = Debug|x64
-		{E5539B61-2883-4DE0-8FCB-B46EEA281462}.Debug|x64.Build.0 = Debug|x64
-		{E5539B61-2883-4DE0-8FCB-B46EEA281462}.Debug|x86.ActiveCfg = Debug|x86
-		{E5539B61-2883-4DE0-8FCB-B46EEA281462}.Debug|x86.Build.0 = Debug|x86
-		{E5539B61-2883-4DE0-8FCB-B46EEA281462}.Release|ARM.ActiveCfg = Release|ARM
-		{E5539B61-2883-4DE0-8FCB-B46EEA281462}.Release|ARM.Build.0 = Release|ARM
-		{E5539B61-2883-4DE0-8FCB-B46EEA281462}.Release|x64.ActiveCfg = Release|x64
-		{E5539B61-2883-4DE0-8FCB-B46EEA281462}.Release|x64.Build.0 = Release|x64
-		{E5539B61-2883-4DE0-8FCB-B46EEA281462}.Release|x86.ActiveCfg = Release|x86
-		{E5539B61-2883-4DE0-8FCB-B46EEA281462}.Release|x86.Build.0 = Release|x86
 		{C08DF60C-4E31-481D-BB93-9459CA3EF537}.Debug|ARM.ActiveCfg = Debug|ARM
 		{C08DF60C-4E31-481D-BB93-9459CA3EF537}.Debug|ARM.Build.0 = Debug|ARM
 		{C08DF60C-4E31-481D-BB93-9459CA3EF537}.Debug|x64.ActiveCfg = Debug|x64

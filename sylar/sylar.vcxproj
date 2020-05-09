@@ -65,14 +65,12 @@
   </PropertyGroup>
   <ItemGroup>
     <ClCompile Include="config.cpp" />
-    <ClCompile Include="config_test.cpp" />
     <ClCompile Include="evemtWar.cpp" />
     <ClCompile Include="log.cpp" />
     <ClCompile Include="logAppender.cpp" />
     <ClCompile Include="logEvent.cpp" />
     <ClCompile Include="logFormat.cpp" />
     <ClCompile Include="logger.cpp" />
-    <ClCompile Include="mian.cpp" />
     <ClCompile Include="test_thread.cpp" />
     <ClCompile Include="thread.cpp" />
   </ItemGroup>

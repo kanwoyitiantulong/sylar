@@ -7,8 +7,6 @@
 #include<functional>
 #include<string>
 namespace sylar {
-	thread_local pthread_t local_pthread_t;
-	thread_local std::string  local_thread_name;
 	class thread {
 	public:
 		//¿‡÷«ƒ‹÷∏’Î
@@ -16,7 +14,7 @@ namespace sylar {
 		typedef std::function<void()> cb;
 
 
-		thread(std::string &threadName,cb& fun);
+		thread(const std::string &threadName,cb fun);
 		~thread();
 
 		void setThreadName(std::string str);

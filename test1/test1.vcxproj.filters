@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="config">
+      <UniqueIdentifier>{278343be-a1d0-403e-81e6-a191863312d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log">
+      <UniqueIdentifier>{cdc809ed-8715-430f-b0fd-388678e6dad4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{a9903273-320c-4365-a974-f9366d6128e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thread">
+      <UniqueIdentifier>{dae73cb4-d102-434f-b65a-0aa3e889a3e6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\sylar\config.cpp">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sylar\evemtWar.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sylar\log.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sylar\logAppender.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sylar\logEvent.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sylar\logFormat.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sylar\logger.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sylar\test_thread.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sylar\thread.cpp">
+      <Filter>thread</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\sylar\config.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sylar\eventWar.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sylar\log.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sylar\logAppender.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sylar\logEvent.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sylar\logFormat.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sylar\logger.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sylar\config.yaml">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sylar\thread.h">
+      <Filter>thread</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

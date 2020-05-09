@@ -1,12 +1,17 @@
 #include"thread.h"
 #include<pthread.h>
+#include <sys/syscall.h>
+#include <unistd.h> 
 #include<iostream>
 namespace sylar {
-	thread::thread(std::string &threadName, cb &fun) {
+	thread_local pthread_t local_pthread_t;
+	thread_local std::string  local_thread_name;
+
+	thread::thread(const std::string &threadName, cb fun) {
 		m_name = threadName;
 		m_cb = fun;
-		m_id = pthread_create(&m_thread, NULL, thread_run, this);
-		if (!m_id) {
+		int ret = pthread_create(&m_thread, NULL, thread_run, this);
+		if (ret) {
 			std::cout << "creat thread error;" << std::endl;
 		}
 	}
@@ -35,9 +40,10 @@ namespace sylar {
 
 	void* thread::thread_run(void *arg) {
 		thread *t_thread = (thread*)arg;
-		local_pthread_t = t_thread->m_id;
+		local_pthread_t = t_thread->m_thread;
 		local_thread_name = t_thread->m_name;
-		pthread_setname_np(t_thread->m_thread, t_thread->m_name.substr(0.15).c_str());
+		t_thread->m_id= syscall(SYS_gettid);
+		pthread_setname_np(t_thread->m_thread, t_thread->m_name.substr(0,15).c_str());
 		thread::cb func;
 		func.swap(t_thread->m_cb);
 		func();
