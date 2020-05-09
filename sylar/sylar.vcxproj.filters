@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="log">
+      <UniqueIdentifier>{3c97a9a4-af3f-482d-bb31-9df9cc59b4a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config">
+      <UniqueIdentifier>{25e19f3e-b5b7-408c-8d84-3b4030b8a4db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{a376cd07-a83f-448f-8866-93b5f6833d91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thread">
+      <UniqueIdentifier>{d37ddf9d-fe37-4530-a39d-9e2bd057ed88}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="logEvent.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="log.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="logger.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="logFormat.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="logAppender.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="evemtWar.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="config.cpp">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="mian.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="thread.cpp">
+      <Filter>thread</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="logEvent.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="logger.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="logFormat.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="logAppender.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="eventWar.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="config.yaml">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="thread.h">
+      <Filter>thread</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
