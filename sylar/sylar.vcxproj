@@ -91,6 +91,7 @@
       <CAdditionalWarning>%(CAdditionalWarning)</CAdditionalWarning>
       <CppAdditionalWarning />
       <AdditionalOptions>-I/usr/local/include -lyaml</AdditionalOptions>
+      <BrowseInformation>true</BrowseInformation>
     </ClCompile>
     <Link>
       <SharedLibrarySearchPath>/usr/local/lib;%(SharedLibrarySearchPath)</SharedLibrarySearchPath>
@@ -99,6 +100,9 @@
       <AdditionalLibraryDirectories>/usr/local/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <LibraryDependencies>yaml-cpp;pthread;%(LibraryDependencies)</LibraryDependencies>
     </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
